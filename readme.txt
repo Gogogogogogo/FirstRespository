@@ -7,3 +7,5 @@ git commit -m "提交说明" //提交
 
 git status //查看仓库当前的状态
 git diff   //查看
+
+git log //查看历史记录
