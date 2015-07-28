@@ -20,3 +20,5 @@ git reflog //查看所有的commit版本和commit id
 使用git add 添加文件 实际上是把文件修改添加到暂存区；
 使用git commit 提交 实际上就是把暂存区的所有内容提交到
 当前分支
+
+git追踪并管理的是修改而非文件，每次修改如果不add到暂存区，那就commit不到分支中
