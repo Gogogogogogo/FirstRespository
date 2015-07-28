@@ -22,3 +22,9 @@ git reflog //查看所有的commit版本和commit id
 当前分支
 
 git追踪并管理的是修改而非文件，每次修改如果不add到暂存区，那就commit不到分支中
+
+git checkout -- file :把工作区的修改全部撤销
+一种是readme.txt自修改后还没有被放到暂存区，现在，撤销修改就回到和版本库一模一样的状态；
+
+一种是readme.txt已经添加到暂存区后，又作了修改，现在，撤销修改就回到添加到暂存区后的状态。
+git reset HEAD file可以把暂存区的修改撤销掉（unstage），重新放回工作区
