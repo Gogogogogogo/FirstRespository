@@ -9,6 +9,6 @@ git status //查看仓库当前的状态
 git diff   //查看
 
 git log //查看历史记录
-git reset --HEAD^ //版本的回退,回退到上一个版本
-git reset --HEAD^^^ //回退到前三个版本
-git reset --HEAD~100 //回退到前100个版本
+git reset --hard HEAD^ //版本的回退,回退到上一个版本
+git reset --hard HEAD^^^ //回退到前三个版本
+git reset --hard HEAD~100 //回退到前100个版本
