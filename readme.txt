@@ -16,3 +16,7 @@ git reset --hard HEAD~100 //回退到前100个版本
 //通过commit id来进行版本的更换
 git reset --hard 37606199a3dc9198eb8cffd73763537a56298aaf
 git reflog //查看所有的commit版本和commit id
+
+使用git add 添加文件 实际上是把文件修改添加到暂存区；
+使用git commit 提交 实际上就是把暂存区的所有内容提交到
+当前分支
