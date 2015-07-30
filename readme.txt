@@ -41,3 +41,5 @@ git branch name //创建名字为name的分支，如果不加name，则为查看
 git checkout name //转到name这个分支
 ////////
 //转到不同的分支，文件内容变化到相应分支下的修改
+
+//转到dev分支下修改
