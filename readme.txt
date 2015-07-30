@@ -39,3 +39,5 @@ git push -u origin master //本地库的内容推送到远程，第一次推送 
 
 git branch name //创建名字为name的分支，如果不加name，则为查看当前的分支
 git checkout name //转到name这个分支
+////////
+//转到不同的分支，文件内容变化到相应分支下的修改
