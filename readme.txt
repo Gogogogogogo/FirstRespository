@@ -33,3 +33,6 @@ git rm //用来删除版本库中的文件
 git checkout -- <file> //git checkout其实是用版本库里的版本替换工作区的版本，无论工作区是修改还是删除，都可以“一键还原”
 
 ssh-keygen -t rsa -C "youremail@example.com" //成功公钥和密钥对
+
+git remote add origin 地址 //添加远程仓库地址
+git push -u origin master //本地库的内容推送到远程，第一次推送 加上-u git不但会把本地master分支内容推送到远程新的master 分支，还会把本地的master分支和远程的master 分支关联起来
