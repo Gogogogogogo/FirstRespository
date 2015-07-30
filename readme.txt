@@ -36,3 +36,6 @@ ssh-keygen -t rsa -C "youremail@example.com" //成功公钥和密钥对
 
 git remote add origin 地址 //添加远程仓库地址
 git push -u origin master //本地库的内容推送到远程，第一次推送 加上-u git不但会把本地master分支内容推送到远程新的master 分支，还会把本地的master分支和远程的master 分支关联起来
+
+git branch name //创建名字为name的分支，如果不加name，则为查看当前的分支
+git checkout name //转到name这个分支
