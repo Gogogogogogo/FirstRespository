@@ -24,10 +24,12 @@ git reflog //查看所有的commit版本和commit id
 git追踪并管理的是修改而非文件，每次修改如果不add到暂存区，那就commit不到分支中
 
 git checkout -- file :把工作区的修改全部撤销
-git checkout其实是用版本库里的版本替换工作区的版本，无论工作区是修改还是删除，都可以“一键还原”
 
 一种是readme.txt自修改后还没有被放到暂存区，现在，撤销修改就回到和版本库一模一样的状态；
 
 一种是readme.txt已经添加到暂存区后，又作了修改，现在，撤销修改就回到添加到暂存区后的状态。
 git reset HEAD file可以把暂存区的修改撤销掉（unstage），重新放回工作区
 git rm //用来删除版本库中的文件
+git checkout -- <file> //git checkout其实是用版本库里的版本替换工作区的版本，无论工作区是修改还是删除，都可以“一键还原”
+
+ssh-keygen -t rsa -C "youremail@example.com" //成功公钥和密钥对
